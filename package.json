@@ -1,7 +1,7 @@
 {
-  "name": "multifunction",
+  "name": "react-native-imc-todo-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,13 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~54.0.25",
-    "expo-status-bar": "~3.0.8",
-    "react": "19.1.0",
-    "react-native": "0.81.5"
-  },
-  "private": true
+    "@react-native-async-storage/async-storage": "~1.19.0",
+    "expo": "~49.0.0",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.72.4",
+    "react-native-web": "~0.19.6",
+    "react-dom": "18.2.0",
+    "@expo/webpack-config": "^19.0.0"
+  }
 }
